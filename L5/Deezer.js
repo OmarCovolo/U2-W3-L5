@@ -56,7 +56,7 @@
   <div class="card-body">
     <h5 class="card-title">${firstfav.title}</h5>
     <p class="card-text">${firstfav.artist.name}</p>
-    <a href="${firstfav.link}" class="btn btn-primary">Go somewhere</a>
+    <a href="${firstfav.link}" class="btn btn-primary">Listen</a>
   </div>
 </div>
           `
@@ -157,6 +157,21 @@
   }
   
 
+  
+
+  const titles= async function () {
+   
+
+    let titl = document.querySelector('.modal-body')
+    let titoli=document.createElement(querySelectorAll('h5'))
+
+  titl.appendChild(titoli)
+  }
 
   
 
+  
+
+
+
+      
